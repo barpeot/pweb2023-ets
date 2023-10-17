@@ -1,0 +1,381 @@
+.pickawood-jzrptiuoofc-unsplash-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 885px;
+    object-fit: cover;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 311px;
+    left: 813px;
+    display: inline-block;
+    width: 735px;
+    height: 264px;
+}
+.selamat-datang-di {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 718px;
+    height: 97px;
+}
+.tc-library1 {
+    position: absolute;
+    top: 97px;
+    left: 0px;
+    font-size: 96px;
+    font-weight: 600;
+    display: inline-block;
+    width: 718px;
+    height: 97px;
+}
+.tc-library {
+    position: absolute;
+    top: 307px;
+    left: 95px;
+    width: 718px;
+    height: 194px;
+    font-size: 64px;
+}
+.intro {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+.navbar-child {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #91cbec;
+    width: 100%;
+    height: 120px;
+}
+.register {
+    position: relative;
+    display: inline-block;
+    width: 128px;
+    height: 36px;
+    flex-shrink: 0;
+}
+.phuser-bold-icon {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.register-parent {
+    position: absolute;
+    top: 27px;
+    left: 1228px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 320px;
+}
+.lambang-its-hitam-02-1 {
+    position: relative;
+    width: 64px;
+    height: 68.65px;
+    object-fit: cover;
+}
+.tc-library2 {
+    position: relative;
+    display: inline-block;
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    min-width: 270px;
+}
+.lambang-its-hitam-02-1-parent {
+    position: absolute;
+    top: 24px;
+    left: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 48px;
+}
+.beranda {
+    position: relative;
+    display: inline-block;
+    width: 161px;
+    height: 36px;
+    flex-shrink: 0;
+}
+.koleksi-buku {
+    position: relative;
+    display: inline-block;
+    width: 197px;
+    height: 36px;
+    flex-shrink: 0;
+}
+.berita {
+    position: relative;
+    display: inline-block;
+    width: 134px;
+    height: 36px;
+    flex-shrink: 0;
+}
+.beranda-parent {
+    position: absolute;
+    top: 49px;
+    left: 428px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    min-width: 720px;
+    font-size: 20px;
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: #000;
+}
+.footer-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #2d4553;
+    width: 100%;
+    height: 347px;
+}
+.tc-library-2021-2023 {
+    position: absolute;
+    top: 250px;
+    left: calc(50% - 234px);
+    display: inline-block;
+    width: 469px;
+    height: 37px;
+}
+.about-us {
+    position: absolute;
+    top: 44px;
+    left: 62px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    display: inline-block;
+    width: 375px;
+    height: 58px;
+}
+.contact-person {
+    position: absolute;
+    top: 92px;
+    left: 62px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    display: inline-block;
+    width: 375px;
+    height: 58px;
+}
+.footer {
+    position: absolute;
+    top: 2353px;
+    left: 0px;
+    width: 100%;
+    height: 347px;
+    text-align: center;
+}
+.newsheadline-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #7fb2cf;
+    width: 663px;
+    height: 96px;
+}
+.news {
+    position: absolute;
+    top: 0px;
+    left: 12.92px;
+    font-weight: 600;
+    display: inline-block;
+    width: 650.08px;
+    height: 110.23px;
+}
+.newsheadline {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 663px;
+    height: 110.23px;
+    font-size: 64px;
+    color: #fff;
+}
+.news1-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #e1e1e1;
+    width: 663px;
+    height: 340.91px;
+}
+.new-novel {
+    position: absolute;
+    top: 47.73px;
+    left: 26.91px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    width: 600.57px;
+    height: 50px;
+}
+.ant-designarrow-up-outlined-icon {
+    position: absolute;
+    top: 265.91px;
+    left: 583.35px;
+    width: 51.66px;
+    height: 54.55px;
+    overflow: hidden;
+}
+.news1 {
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    width: 663px;
+    height: 340.91px;
+}
+.dignissim-cras-tincidunt {
+    position: absolute;
+    top: 97.73px;
+    left: 26.91px;
+    font-weight: 500;
+    display: inline-block;
+    width: 608.11px;
+    height: 186.36px;
+}
+.promo {
+    position: absolute;
+    top: 47.73px;
+    left: 26.91px;
+    font-size: 16px;
+    display: inline-block;
+    width: 600.57px;
+    height: 50px;
+}
+.news2 {
+    position: absolute;
+    top: 461px;
+    left: 0px;
+    width: 663px;
+    height: 340.91px;
+}
+.news3 {
+    position: absolute;
+    top: 816.46px;
+    left: 0px;
+    width: 663px;
+    height: 340.91px;
+}
+.newsbar {
+    position: absolute;
+    top: 1076px;
+    left: 868px;
+    width: 663px;
+    height: 1157.37px;
+    font-size: 12px;
+    color: #000;
+}
+.image-3-icon {
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    width: 700px;
+    height: 412px;
+    object-fit: cover;
+}
+.library-location-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #7fb2cf;
+    width: 700px;
+    height: 68px;
+}
+.library-location1 {
+    position: absolute;
+    top: 0.01px;
+    padding-bottom: 100px;
+    left: 15.02px;
+    line-height: 149.5%;
+    font-weight: 600;
+    display: inline-block;
+    width: 684.98px;
+    height: 68px;
+}
+.library-location {
+    position: absolute;
+    top: 1702px;
+    left: 79px;
+    width: 700px;
+    height: 480px;
+    font-size: 40px;
+}
+.recommendation-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #7fb2cf;
+    width: 700px;
+    height: 67.93px;
+}
+.lectus-magna-fringilla {
+    position: absolute;
+    top: 114px;
+    left: 358px;
+    font-weight: 500;
+    display: inline-block;
+    width: 288px;
+    height: 192px;
+}
+.recommendation1 {
+    position: absolute;
+    top: 0.01px;
+    left: 15.02px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    width: 684.98px;
+    height: 67.99px;
+}
+.recommendation {
+    position: absolute;
+    top: 1146px;
+    left: 79px;
+    width: 700px;
+    height: 306px;
+    font-size: 12px;
+    color: #000;
+}
+.landing-page {
+    position: relative;
+    background-color: #f9f7f7;
+    width: 100%;
+    height: 2700px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Poppins;
+}
+.maps {
+    padding-top: 80px;
+}
