@@ -12,7 +12,7 @@
 </head>
 <body>
   	
-<div class="landing-page">
+<div class="landing-page" id="beranda">
     <div class="intro">
         <img class="pickawood-jzrptiuoofc-unsplash-icon" alt="" src="./assets/bg-tc-library.png">
         
@@ -26,10 +26,8 @@
         <div class="navbar-child">
         </div>
         <div class="register-parent">
-                <div class="register"><a href="#">Register</a></div>
-                <div class="register"><a href="#">Login</a></div>
-                <img class="phuser-bold-icon" alt="" src="./assets/glass.png">
-                
+            <div class="navbar-right"><a href="#recommendation"><img class="phuser-bold-icon" alt="" src="./assets/glass.png"></a></div>                    
+            <div class="navbar-right"><a href="#daftar"><img class="phuser-bold-icon" alt="" src="./assets/user.png"></a></div>
         </div>
         <div class="lambang-its-hitam-02-1-parent">
                 <img class="lambang-its-hitam-02-1" alt="" src="./assets/Lambang ITS hitam-02.png">
@@ -37,19 +35,12 @@
                 <div class="tc-library2">TC Library</div>
         </div>
         <div class="beranda-parent">
-                <div class="beranda"><a href="#">Beranda</a></div>
-                <div class="koleksi-buku"><a href="#">Koleksi Buku</a></div>
-                <div class="berita"><a href="#">Berita</a></div>
+                <div class="beranda"><a href="#beranda">Beranda</a></div>
+                <div class="koleksi-buku"><a href="#recommendation">Catalog</a></div>
+                <div class="berita"><a href="#berita">Berita</a></div>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer-child">
-        </div>
-        <div class="tc-library-2021-2023">© TC Library 2021-2023</div>
-        <div class="about-us">About Us</div>
-        <div class="contact-person">Contact Us</div>
-    </div>
-    <div class="newsbar">
+    <div class="newsbar" id="berita">
         <div class="newsheadline">
                 <div class="newsheadline-child">
                 </div>
@@ -91,11 +82,11 @@
             </div>
         </div>
     </div>
-    <div class="recommendation">
+    <div class="recommendation" id="recommendation">
         <div class="recommendation-child">
         </div>
-        <div class="recommendation1">Recommendation</div>
-        <div id="carouselExampleCaptions" class="carousel slide mt-5 pt-5">
+        <div class="recommendation1">New Arrival</div>
+        <div id="carouselExampleCaptions" class="carousel slide pt-5">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -108,8 +99,10 @@
                             <img src="./assets/percy.jpg" class="d-block" style="width: 230px; height: 330px;" alt="...">
                         </div>
                         <div class="col-md-8">
-                            <h2><a class="link-opacity-100" href="#">Percy Jackson</a></h2>
+                            <h2>Percy Jackson</h2>
                             <h6>Mauris a diam maecenas sed enim ut sem viverra. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien.</h6>
+                            <button class="btn btn-primary mt-3" type="submit">Learn More</button>
+
                         </div>
                     </div>
                 </div>
@@ -120,8 +113,10 @@
                             <img src="./assets/harrypotter.png" class="d-block" style="width: 230px; height: 330px;" alt="...">
                         </div>
                         <div class="col-md-8">
-                            <h2><a class="link-opacity-100" href="#">Harry Potter</a></h2>
+                            <h2>Harry Potter</h2>
                             <h6>Fusce id velit ut tortor pretium viverra suspendisse potenti. Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Platea dictumst quisque sagittis purus sit amet. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus.</h6>
+                            <button class="btn btn-primary mt-3" type="submit">Learn More</button>
+
                         </div>
                     </div>
                 </div>
@@ -132,8 +127,9 @@
                             <img src="./assets/sherlock.jpg" class="d-block" style="width: 230px; height: 330px;" alt="...">
                         </div>
                         <div class="col-md-8">
-                            <h2><a class="link-opacity-100" href="#">Sherlock Holmes</a></h2>
+                            <h2>Sherlock Holmes</h2>
                             <h6>Vel orci porta non pulvinar neque laoreet suspendisse. Aenean vel elit scelerisque mauris pellentesque pulvinar. Accumsan lacus vel facilisis volutpat est. Risus quis varius quam quisque. Id cursus metus aliquam eleifend mi in nulla.</h6>
+                            <button class="btn btn-primary mt-3" type="submit">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -148,9 +144,85 @@
             </button>
         </div>  
     </div>
+    <div class="daftar" id="daftar">
+        <h2>Pendaftaran Akun</h2>
+        <form id="form-pendaftaran" action="" method="post" onsubmit="return validateForm()">
+            <div class="form-group">
+              <label for="nama" class="form-label">Username</label>
+              <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama">
+            <div id="nama-alertMsg" class="text-danger"></div>
+        </div>
+        
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" placeholder="Masukkan Email" class="form-control" name="email">
+            <div id="email-alertMsg" class="text-danger"></div>
+        </div>
 
+        <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" placeholder="Masukkan Password" class="form-control" name="password">
+            <div id="password-alertMsg" class="text-danger"></div>
+        </div>
+
+        <button class="btn btn-primary mt-3" type="submit">Submit</button>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-child">
+        </div>
+        <div class="tc-library-2021-2023">© TC Library 2021-2023</div>
+        <div class="about-us">About Us</div>
+        <div class="contact-person">Contact Us</div>
+    </div>
     
-</div>  
+</div>
+
+<script>
+    function validateForm() {
+        var flag = 1;
+        var alertMsg = "";
+
+        if (document.forms["form-pendaftaran"]["nama"].value == "") {
+            var alertMsg = "Nama tidak boleh kosong!";
+            document.getElementById("nama-alertMsg").innerHTML = alertMsg;
+            flag = 0;
+        } else {
+            var flag = 1;
+            var alertMsg = "";
+            document.getElementById("nama-alertMsg").innerHTML = alertMsg;
+        }
+        
+        if (document.forms["form-pendaftaran"]["email"].value == "") {
+            var alertMsg = "Email tidak boleh kosong!";
+            document.getElementById("email-alertMsg").innerHTML = alertMsg;
+            flag = 0;
+        } else {
+            var flag = 1;
+            var alertMsg = "";
+            document.getElementById("email-alertMsg").innerHTML = alertMsg;
+        }
+
+        if (document.forms["form-pendaftaran"]["password"].value == "") {
+            var alertMsg = "Password tidak boleh kosong!";
+            document.getElementById("password-alertMsg").innerHTML = alertMsg;
+            flag = 0;
+        } else if (document.forms["form-pendaftaran"]["password"].value.length < 8) {
+            var alertMsg = "Password minimal 8 karakter!";
+            document.getElementById("password-alertMsg").innerHTML = alertMsg;
+            flag = 0;
+        } else {
+            var flag = 1;
+            var alertMsg = "";
+            document.getElementById("password-alertMsg").innerHTML = alertMsg;
+        }
+
+        if (flag == 0){
+            return false;
+        } 
+  }
+  </script>
 </body>
 </html>
 
